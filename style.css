@@ -1,0 +1,39 @@
+body {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    position: relative;
+  }
+  
+  canvas {
+    background: #000;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #fff;
+  }
+  
+  .difficulty-buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #555;
+  }
+  
